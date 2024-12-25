@@ -1,0 +1,29 @@
+{
+  "name": "what-gpt",
+  "version": "1.0.0",
+  "description": "Whatsapp bot for GPT-3. Made with Venom and OpenAI.",
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "gpt-3",
+    "openai",
+    "dall-e",
+    "api",
+    "venombot"
+  ],
+  "author": "The Developer03>",
+  "repository": "https://github.com/pixelPusher03/Raiden-gpt",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase": "^9.17.1",
+    "openai": "^3.2.1",
+    "venom-bot": "^5.0.1"
+  }
+}
